@@ -5,6 +5,7 @@ cfgv==3.3.1
 click==8.1.2
 dill==0.3.4
 distlib==0.3.4
+Faker==13.3.4
 filelock==3.6.0
 flake8==4.0.1
 greenlet==1.1.2
@@ -26,6 +27,7 @@ pyflakes==2.4.0
 pylint==2.13.5
 pyparsing==3.0.8
 pytest==7.1.1
+python-dateutil==2.8.2
 PyYAML==6.0
 six==1.16.0
 SQLAlchemy==1.4.35
