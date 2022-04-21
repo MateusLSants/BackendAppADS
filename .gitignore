@@ -1,4 +1,8 @@
 **/__pycache__
 .pytest_cache
+<<<<<<< HEAD
 venv
 storage.db
+=======
+venv
+>>>>>>> cf8040b1e7954bb1747681d9a0d96a81a150c048

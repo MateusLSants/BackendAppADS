@@ -7,7 +7,7 @@ user_repository = UserRepository()
 db_connection_handler = DBconnectionHeadler()
 
 
-def test_inser_user():
+def test_insert_user():
     """Should Insert User"""
 
     name = faker.name()
