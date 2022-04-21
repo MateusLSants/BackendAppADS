@@ -27,3 +27,13 @@ class Produtos(Base):
         out_desc = f"Produto [name = {self.name}]"
         out_userid = f"Produto [name = {self.name}]"
         return out_name, out_type, out_desc, out_userid
+
+    def __eq__(self, other):
+        if (
+            self.id == other.id
+            and self.name == other.name
+            and self.typeP == other.typeP
+            and self.description == other.description
+        ):
+            return True
+        return False
